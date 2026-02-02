@@ -1,0 +1,50 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Переменные окружения
+.env
+.env.local
+.env.production
+.env.development
+
+# Сборки
+dist/
+build/
+*.tsbuildinfo
+
+# Логи
+logs/
+*.log
+pm2-logs/
+
+# Базы данных
+*.sql
+*.sqlite
+*.db
+
+# Экспорты
+exports/
+backups/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+tmp/
+temp/
+*.tmp
+
+# Тестовые файлы
+coverage/
+.nyc_output/
